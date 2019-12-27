@@ -69,8 +69,8 @@
                         <a>Login</a>
                     <a href="public/index.php/registration">Registration</a>
                     <a>Products</a>
-                    <a>Faq</a>
-                    <a>Purchase</a>                      
+                    <a href="public/index.php/faq">Faq</a>
+                    <a href="public/index.php/purchase">Purchase</a>                      
                 </div>
 
             <div class="content">
