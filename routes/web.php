@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+// Route::get('/123', function () {
+//     return view('registration');
+// });
+
+Route::get('/registration','userscontroller@users');

@@ -67,7 +67,7 @@
         <div class="flex-center position-ref full-height">
                 <div class="top-right links">
                         <a>Login</a>
-                    <a >Registration</a>
+                    <a href="public/index.php/registration">Registration</a>
                     <a>Products</a>
                     <a>Faq</a>
                     <a>Purchase</a>                      
