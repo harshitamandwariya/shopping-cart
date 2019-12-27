@@ -23,3 +23,5 @@ Route::get('/', function () {
 Route::get('/registration','userscontroller@users');
 
 Route::get('/purchase','userscontroller@purchase');
+
+Route::get('/faq','userscontroller@faq');
