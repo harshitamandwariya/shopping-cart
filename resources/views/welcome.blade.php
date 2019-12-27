@@ -66,11 +66,11 @@
     <body>
         <div class="flex-center position-ref full-height">
                 <div class="top-right links">
-                        <a>Login</a>
+                    <a href="{{ url('/login') }}">Login</a>
                     <a >Registration</a>
                     <a>Products</a>
                     <a>Faq</a>
-                    <a>Purchase</a>                      
+                    <a href="{{ url('/purchase') }}">Purchase</a>                      
                 </div>
 
             <div class="content">
