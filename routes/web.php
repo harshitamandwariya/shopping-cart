@@ -20,11 +20,15 @@ Route::get('/', function () {
 });
 
 Route::get('/login', 'LoginController@login');
+
+Route::get('/products', 'ProductController@products');
+
+
 Route::get('/purchase', 'PurchaseController@purchase');
 
 
-Route::get('/registration','userscontroller@users');
+Route::get('/registration', 'userscontroller@users');
 
-Route::get('/purchase','userscontroller@purchase');
+Route::get('/purchase', 'userscontroller@purchase');
 
-Route::get('/faq','userscontroller@faq');
+Route::get('/faq', 'userscontroller@faq');

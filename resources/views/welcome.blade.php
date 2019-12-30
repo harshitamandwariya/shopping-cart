@@ -67,8 +67,9 @@
         <div class="flex-center position-ref full-height">
                 <div class="top-right links">
                     <a href="{{ url('/login') }}">Login</a>                     
-                    <a href="public/index.php/registration">Registration</a>
-                    <a href="public/index.php/purchase">Purchase</a>          
+                   <a href="public/index.php/registration">Registration</a>
+                   <a href="{{ url('/products') }}">Products</a>                     
+                   <a href="public/index.php/purchase">Purchase</a>          
                     <a href="public/index.php/faq">Faq</a>            
                 </div>
 
