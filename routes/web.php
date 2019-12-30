@@ -23,10 +23,6 @@ Route::get('/login', 'LoginController@login');
 
 Route::get('/products', 'ProductController@products');
 
-
-Route::get('/purchase', 'PurchaseController@purchase');
-
-
 Route::get('/registration', 'userscontroller@users');
 
 Route::get('/purchase', 'userscontroller@purchase');
