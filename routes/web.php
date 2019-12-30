@@ -22,9 +22,6 @@ Route::get('/', function () {
 Route::get('/login', 'LoginController@login');
 Route::get('/purchase', 'PurchaseController@purchase');
 
-// Route::get('/123', function () {
-//     return view('registration');
-// });
 
 Route::get('/registration','userscontroller@users');
 
